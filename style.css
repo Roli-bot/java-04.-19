@@ -1,0 +1,68 @@
+.container{
+    width: max-content;
+    
+}
+
+.right{
+    text-align: right;
+}
+
+.pluszjel{
+    padding-right: 150px;
+}
+
+.egyenlo{
+    padding-right: 50px;
+}
+
+.six{
+    position: absolute;
+    left: 330px;
+    top: 90px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.six2{
+    position: absolute;
+    left: 330px;
+    top: 185px;
+    font-size: 50px;
+    margin: 0;
+}
+.one2{
+    position: absolute;
+    left: 430px;
+    top: 90px;
+    font-size: 50px;
+    margin: 0;
+}
+.two2{
+    position: absolute;
+    left: 430px;
+    top: 335px;
+    font-size: 50px;
+    margin: 0;
+}
+.two{
+    position: absolute;
+    left: 330px;
+    top: 335px;
+    font-size: 50px;
+    margin: 0;
+}
+.one3{
+    position: absolute;
+    left: 430px;
+    top: 185px;
+    font-size: 50px;
+    margin: 0;
+}
+.one{
+    position: absolute;
+    left: 225px;
+    top: 335px;
+    font-size: 50px;
+    margin: 0;
+}
+

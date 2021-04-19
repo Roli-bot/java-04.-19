@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="container">Exercise task. Mathematical operations: </h1>
+    <div class="container">
+        <p class="right">
+            <img src="piros.png">
+            <img src="szurke.png">
+            <br>
+            <img class="pluszjel" src="pluszjel.png">
+            <img src="piros.png">
+            <img src="szurke.png">
+            <br>
+            <img src="vonal.png" alt="line">
+            <br>
+            <img class="egyenlo" src="egyenlo.png">
+            <img src="szurke.png">
+            <img src="kek.png">
+            <img src="kek.png">
+        </p>
+        <button class="reset" type="button"><a href="index.html">Reset</a></button>
+        <button class="solution" type="button">Solution</button>
+        <p class="sum">Result:</p>
+    </div>
+    <div>
+        <p class="six"></p>
+        <p class="six2"></p>
+        <p class="one2"></p>
+        <p class="two2"></p>
+        <p class="two"></p>
+        <p class="one3"></p>
+        <p class="one"></p>
+    </div>
+    <script>
+        let solution = document.querySelector(".solution");
+let reset = document.querySelector(".reset");
+
+solution.addEventListener("click", solutionFunction);
+
+function solutionFunction() {
+    document.querySelector(".six").innerHTML = "6";
+    document.querySelector(".six2").innerHTML = "6";
+    document.querySelector(".one2").innerHTML = "1";
+    document.querySelector(".two2").innerHTML = "2";
+    document.querySelector(".two").innerHTML = "2";
+    document.querySelector(".one3").innerHTML = "1";
+    document.querySelector(".one").innerHTML = "1";
+    document.querySelector(".sum").innerHTML = "Result: 121";
+}
+
+    </script>
+</body>
+
+</html>
